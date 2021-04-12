@@ -3,28 +3,22 @@ body {
 
 }
 
-.blue {
+ol>li:first-child {
     color: blue;
 }
 
-.red {
+ol>li:first-child>ul>li {
     color: red;
 }
 
-.green {
+ol>li:first-child>ul>li:last-child {
     color: green;
 }
 
-.black {
-    color: black;
+ol>li:last-child {
+    color: grey;
 }
 
-.grey {
-    color: gray;
-}
-
-/*texte en couleur rose */
-
-.pink {
+p span>span {
     color: pink;
 }
